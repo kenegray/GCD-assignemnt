@@ -13,3 +13,8 @@ It will get the column names for the data out of features.txt file. It will then
 The script will get the 'activity' information and load it into the Y data such that there will be an "activity_id" and description column in the data set. It will then get the subject data merge them and then merge all three sets (x,y, subject) in order to get a dataset with the subject, activity, and the measurements.
 
 It will then get the averages for each measurement for each activity for each subject and print that out into a file.
+
+The variables for the data are found in these files:
+activities.txt
+features.txt
+activity_labels.txt
