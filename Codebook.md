@@ -14,7 +14,7 @@ It will then load in the x_test and x_train files and merge them into one datase
 
 After getting and merging the y data, the script will get the 'activity' information and load it into the Y data such that there will be an "activity_id" and description column in the data set. It will then get the subject data merge them and then merge all three sets (x,y, subject) in order to get a dataset with the subject, activity, and the measurements.
 
-It will then get the averages for each measurement for each activity for each subject and print that out into a file.
+It will then get the averages for each measurement for each activity for each subject and print that out into a file.  Each of these variables were averaged by subject/activity via summarize/means process.
 
 The variables for the data are found in these files:
  [1]"tbodyacc-mean-x"           "tbodyacc-mean-y"           "tbodyacc-mean-z"          
